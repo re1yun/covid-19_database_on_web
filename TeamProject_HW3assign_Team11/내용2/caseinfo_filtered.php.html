@@ -1,0 +1,61 @@
+
+<!-- saved from url=(0048)http://localhost/K_COVID_3/caseinfo_filtered.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		</head><body><h1 style="text-align:center;">
+        	<strong>
+	            Database TeamProject Team11
+        	</strong>
+    	</h1>
+
+		<hr style="width: 100%; border: 8px solid #81c147;">
+		
+	
+
+	
+		<form method="post">
+			<fieldset style="border: 0px;">
+				<legend>
+					province를 선택하세요.
+				</legend>
+				<select name="search" ,="" id="search">
+					<option value="Busan">Busan</option><option value="Chungcheongbuk-do">Chungcheongbuk-do</option><option value="Chungcheongnam-do">Chungcheongnam-do</option><option value="Daegu">Daegu</option><option value="Daejeon">Daejeon</option><option value="Gangwon-do">Gangwon-do</option><option value="Gwangju">Gwangju</option><option value="Gyeonggi-do">Gyeonggi-do</option><option value="Gyeongsangbuk-do">Gyeongsangbuk-do</option><option value="Gyeongsangnam-do">Gyeongsangnam-do</option><option value="Incheon" selected="selected">Incheon</option><option value="Jeju-do">Jeju-do</option><option value="Jeollabuk-do">Jeollabuk-do</option><option value="Jeollanam-do">Jeollanam-do</option><option value="Sejong">Sejong</option><option value="Seoul">Seoul</option><option value="Ulsan">Ulsan</option>				</select>
+				<input type="submit" value="submit1">
+			</fieldset>
+
+			<p></p><h3> Case Info table (Currently 7 cases in database which province is Incheon)</h3><p></p>			
+			<fieldset style="border: 0px;">
+				Incheon지역의 감염 케이스들 중 확진자 수를 알고싶은 케이스를 선택하세요.<br><br>				<select name="search2" ,="" id="search2">
+					<option value="contact with patient">contact with patient</option><option value="Coupang Logistics Center">Coupang Logistics Center</option><option value="etc">etc</option><option value="Guro-gu Call Center" selected="selected">Guro-gu Call Center</option><option value="Itaewon Clubs">Itaewon Clubs</option><option value="overseas inflow">overseas inflow</option><option value="Shincheonji Church">Shincheonji Church</option>				</select>
+				<input type="submit" value="submit2">
+			</fieldset>
+
+		</form>
+
+
+		<style>
+			table{
+				width: 100%;
+				border: 1px solid #444444;
+				border-collapse: collapse;
+			}
+			th, td {
+				border: 1px solid #444444;
+			}	
+		</style>		
+		
+    	<table class="table table-striped">
+			<tbody><tr>
+				<th>Case_id</th>
+				<th>Province</th>
+				<th>City</th>
+				<th>Infection_group</th>
+				<th>Infection_case</th>
+				<th>Confirmed</th>
+				<th>Latitude</th>
+				<th>Longitude</th>
+			</tr>
+
+			<tr><td>1400003</td><td>Incheon</td><td>from other city</td><td>1</td><td>Guro-gu Call Center</td><td>20</td><td></td><td></td></tr>		</tbody></table>
+	
+</body></html>
